@@ -61,9 +61,6 @@ YoY and MoM comparisons using DAX to see growth or decline.
 
 Slicer Interactions to drill down into specific time periods or categories.
 
-Example:
-
-If sales dipped in Q2, a user can use slicers to filter by product or region and isolate the reason (e.g., lower sales in one region).
 
 🛠️ Optimization Techniques:
 Model Optimization: Reduced column cardinality, removed unnecessary columns.
@@ -76,12 +73,3 @@ Responsive Design: Dashboard adjusts to different screen sizes (e.g., desktop vs
 Can be used by sales teams to track targets, marketing teams to measure campaign ROI, or executives for strategic planning.
 
 Makes reporting automated, reducing dependency on Excel/manual reports.
-
-📚 Questions You Might Face in an Interview:
-Question	Suggested Answer
-What is a KPI and why is it important?	KPI stands for Key Performance Indicator. It reflects how effectively a company is achieving key objectives, like sales targets or customer retention.
-How did you clean your data in Power BI?	Used Power Query Editor for removing nulls, duplicates, formatting data types, merging queries, and shaping it into a star schema.
-What DAX functions did you use?	SUM, CALCULATE, FILTER, ALL, SAMEPERIODLASTYEAR, DATEDIFF for trend and comparison analysis.
-How did you make it interactive?	Implemented slicers, cross-highlighting, drill-throughs, and bookmarks.
-What performance optimizations did you do?	Reduced high-cardinality columns, optimized relationships, disabled auto time intelligence, and used summarized views.
-What were your data sources?	Simulated raw sales data including tables like Sales, Product, Region, and Customer.
